@@ -10,7 +10,9 @@
   "license": "MIT",
   "dependencies": {
     "@roadmanict/nodejs-code-style": "git+https://github.com/roadmanict/nodejs-code-styes.git",
-    "tslint": "^5.19.0",
     "typescript": "^3.5.3"
+  },
+  "devdependencies": {
+    "tslint": "^5.19.0"
   }
 }
