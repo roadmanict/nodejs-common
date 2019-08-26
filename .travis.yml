@@ -4,4 +4,4 @@ install:
 cache:
   directories:
     - "$HOME/.npm"
-script:
+script: npm run build
