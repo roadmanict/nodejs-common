@@ -1,18 +1,24 @@
 {
   "name": "@roadmanict/nodejs-common",
   "version": "1.0.0",
-  "description": "",
+  "description": "Common code for Roadman ICT projects",
+  "repository": "https://github.com/roadmanict/nodejs-common",
   "main": "index.js",
   "scripts": {
     "postinstall": "tsc"
   },
-  "author": "",
+  "author": "Geert Weggemans",
   "license": "MIT",
   "dependencies": {
+    "@hapi/joi": "^15.1.1",
     "@roadmanict/nodejs-code-style": "git+https://github.com/roadmanict/nodejs-code-styes.git",
+    "@types/hapi__joi": "^15.0.3",
     "typescript": "^3.5.3"
   },
-  "devdependencies": {
+  "devDependencies": {
+    "@types/jasmine": "^3.4.0",
+    "jasmine": "^3.4.0",
+    "nyc": "^14.1.1",
     "tslint": "^5.19.0"
   }
 }
