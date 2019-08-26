@@ -12,9 +12,11 @@
     "ts:watch": "tsc -w",
     "watch": "nodemon --watch src --watch spec --exec \"npm run tslint && npm run ts:incremental && npm run test\"",
     "test": "nyc jasmine",
+    "build": "npm run tslint && npm run ts && npm run test",
     "postinstall": "tsc -p tsconfig-postinstall.json",
     "prets:watch": "npm run clean",
-    "prewatch": "npm run clean"
+    "prewatch": "npm run clean",
+    "prebuild": "npm run clean"
   },
   "author": "Geert Weggemans",
   "license": "MIT",
