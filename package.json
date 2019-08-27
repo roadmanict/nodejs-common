@@ -10,10 +10,10 @@
     "ts": "tsc",
     "ts:incremental": "tsc --incremental",
     "ts:watch": "tsc -w",
-    "watch": "nodemon --watch src --watch spec --exec \"npm run tslint && npm run ts:incremental && npm run test\"",
+    "watch": "nodemon --config node_modules/@roadmanict/nodejs-code-style/nodemon.json --watch src --watch spec --exec \"npm run tslint && npm run ts:incremental && npm run test\"",
     "test": "nyc jasmine",
     "build": "npm audit && npm run tslint && npm run ts && npm run test",
-    "prepare": "tsc --declaration",
+    "prepare": "tsc --declaration || exit 0",
     "prets:watch": "npm run clean",
     "prewatch": "npm run clean",
     "prebuild": "npm run clean"
