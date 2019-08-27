@@ -13,7 +13,7 @@
     "watch": "nodemon --watch src --watch spec --exec \"npm run tslint && npm run ts:incremental && npm run test\"",
     "test": "nyc jasmine",
     "build": "npm audit && npm run tslint && npm run ts && npm run test",
-    "postinstall": "tsc -p tsconfig-postinstall.json",
+    "prepare": "tsc -p tsconfig-postinstall.json",
     "prets:watch": "npm run clean",
     "prewatch": "npm run clean",
     "prebuild": "npm run clean"
@@ -21,9 +21,7 @@
   "author": "Geert Weggemans",
   "license": "MIT",
   "dependencies": {
-    "@hapi/joi": "^15.1.1",
     "@roadmanict/nodejs-code-style": "git+https://github.com/roadmanict/nodejs-code-styes.git",
-    "@types/hapi__joi": "^15.0.3",
     "typescript": "^3.5.3"
   },
   "devDependencies": {
