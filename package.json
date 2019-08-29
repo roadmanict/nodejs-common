@@ -16,8 +16,8 @@
   "author": "Geert Weggemans",
   "license": "MIT",
   "dependencies": {
-    "@roadmanict/nodejs-code-style": "git+https://github.com/roadmanict/nodejs-code-styes.git",
-    "typescript": "^3.5.3"
+    "@roadmanict/nodejs-base": "git+https://github.com/roadmanict/nodejs-base.git",
+    "typescript": "^3.6.2"
   },
   "devDependencies": {
     "@types/jasmine": "^3.4.0",
