@@ -16,6 +16,7 @@
     "author": "Geert Weggemans",
     "license": "MIT",
     "dependencies": {
+        "hot-shots": "^6.3.0",
         "typescript": "3.6.2"
     },
     "devDependencies": {
