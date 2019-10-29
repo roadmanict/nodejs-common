@@ -21,6 +21,6 @@
     },
     "devDependencies": {
         "@roadmanict/nodejs-base": "github:roadmanict/nodejs-base",
-        "source-map-support": "0.5.13"
+        "source-map-support": "0.5.16"
     }
 }
